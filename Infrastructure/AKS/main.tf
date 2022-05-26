@@ -9,9 +9,9 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "rg-dnlh-12mar-dev"
-    storage_account_name = "sttfstatedhls"
+    storage_account_name = "stiaacgithub"
     container_name       = "terraformstate"
-    key                  = "terraformstateaks.tfstate"
+    key                  = "akscluster.tfstate"
   }
 
 }
