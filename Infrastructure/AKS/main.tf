@@ -13,7 +13,6 @@ terraform {
     container_name       = "terraformstate"
     key                  = "akscluster.tfstate"
   }
-
 }
 
 
